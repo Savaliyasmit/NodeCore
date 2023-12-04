@@ -2,8 +2,8 @@
 
 const http = require("http");
 const fs = require("fs");
-const htmlData = fs.readFileSync("./commonJs/index_res.html");
-const userData = fs.readFileSync("./commonJs/users.json");
+const htmlData = fs.readFileSync("./NodeCore/index_res.html");
+const userData = fs.readFileSync("./NodeCore/users.json");
 const port = 1000;
 
 const server = http.createServer();

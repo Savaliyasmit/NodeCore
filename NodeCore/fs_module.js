@@ -6,7 +6,7 @@ const fs =  require('fs')
 // 1.open file
 // async
 
-//  let sync =  fs.open('./commonJs/dum.txt','r+',(error,data)=>{
+//  let sync =  fs.open('./NodeCore/dum.txt','r+',(error,data)=>{
 //  if(error){
 //     console.log(`your file not open ${error}`);
 //  }else{
@@ -15,7 +15,7 @@ const fs =  require('fs')
 // }) 
  
 // sync
-// const sysnc = fs.openSync('./commonJs/dum.txt','r+')
+// const sysnc = fs.openSync('./NodeCore/dum.txt','r+')
 // console.log('open file suceesfully',sysnc);
 
 
@@ -24,10 +24,10 @@ const fs =  require('fs')
 // 2.write file
 // sync
 // const data = `hello my name is smit nice to meet you`
-//  fs.writeFileSync('./commonJs/yuu.txt',data)
+//  fs.writeFileSync('./NodeCore/yuu.txt',data)
 
 // aync
-// fs.writeFile('./commonJs/new.txt',data,(error)=>{
+// fs.writeFile('./NodeCore/new.txt',data,(error)=>{
 //    if(error){
 //           console.log(`your file not write${error}`);
 //        }else{
@@ -40,11 +40,11 @@ const fs =  require('fs')
 // 3.read file
 // sync
 
-// const read = fs.readFileSync('./commonJs/dum.txt','utf-8')
+// const read = fs.readFileSync('./NodeCore/dum.txt','utf-8')
 // console.log(read);
 
 // async
-// fs.readFile('./commonJs/dum.txt','utf-8',(error,data)=>{
+// fs.readFile('./NodeCore/dum.txt','utf-8',(error,data)=>{
 //    if(error){
 //       (error);
 //    }else{
@@ -58,11 +58,11 @@ const fs =  require('fs')
 // 4.appendfile
 // sync
 // const data = "ds;f,asldf,l;sdmvl;dsvmlsd;m,fclsk,vslksalkfdasklvaskfcsdkvsdkspvkds"
-// fs.appendFileSync('./commonJs/dum.txt',data)
+// fs.appendFileSync('./NodeCore/dum.txt',data)
 // console.log("succesfully append");
 
 // async
-// fs.appendFile('./commonJs/yuu.txt',data,(error)=>{
+// fs.appendFile('./NodeCore/yuu.txt',data,(error)=>{
 //    if(error){
 //      console.log(error);
 //    }
@@ -82,7 +82,7 @@ const fs =  require('fs')
 
 
 // 6.unlink mens delete 
-// fs.unlink('./commonJs/new.txt',(error)=>{
+// fs.unlink('./NodeCore/new.txt',(error)=>{
 //     if(error){
 //         console.log('file was not deleted',error);
 //     }
@@ -96,7 +96,7 @@ const fs =  require('fs')
 // read and write sucessfully
 // const data = 'asdaslskdsaldkwpdkpqwdqwpdlasd;,; das as;dasdpqwlewpd';
 
-// fs.writeFile('./commonJs/yuu.txt',data,(error)=>{
+// fs.writeFile('./NodeCore/yuu.txt',data,(error)=>{
 //           if(error){
 //                console.log(`not write file ${error}`)
 //           }else{
@@ -105,7 +105,7 @@ const fs =  require('fs')
                     
 // })
 
-// fs.readFile('./commonJs/yuu.txt','utf-8',(error,data)=>{
+// fs.readFile('./NodeCore/yuu.txt','utf-8',(error,data)=>{
 // if(error){
 //     console.log(error);
 // }else{
@@ -115,7 +115,7 @@ const fs =  require('fs')
 
 
 // import and export
-// commonjs
+// NodeCore
 // const {sum,multi} = require('./own_module.js')
 // console.log(sum(45,70));
 
@@ -126,5 +126,5 @@ const fs =  require('fs')
 
 
 // rename file using rename
-// fs.renameSync('./commonJs/dum.txt' , './commonJs/smit.txt')
+// fs.renameSync('./NodeCore/dum.txt' , './NodeCore/smit.txt')
 // console.log('rename this file sucessfully');

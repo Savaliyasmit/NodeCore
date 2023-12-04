@@ -1,6 +1,6 @@
 const http = require('http')
 const fs = require('fs')
-const index_res = fs.readFileSync('./commonJs/index_res.html','utf-8')
+const index_res = fs.readFileSync('./NodeCore/index_res.html','utf-8')
 const data = {name:"smit" , age:19}
 
 const server = http.createServer((req ,res)=>{

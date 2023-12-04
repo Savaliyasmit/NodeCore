@@ -4,7 +4,7 @@ const fs =   require('path')
 
 
 
-// console.log(fs.basename('e:/nodeJs/commonjs/smit.txt')) last name
+// console.log(fs.basename('e:/nodeJs/NodeCore/smit.txt')) last name
 // console.log(fs.delimiter)
 // console.log(fs.dirname('E:\ NodeJs'))  your drive name E
 // console.log(fs.extname('smit.txt')) return txt
