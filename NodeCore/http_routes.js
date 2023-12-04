@@ -7,9 +7,9 @@ const userData = fs.readFileSync("./commonJs/users.json");
 const port = 1000;
 
 const server = http.createServer();
-server.on("request", (req, res) => {
+server.on('request', (req, res) => {
  const route = req.url.split('/')
-// console.log(route);
+console.log(route);
 
 if(route[1] === 'user'){
   res.setHeader("content-type", "application/json");
@@ -27,7 +27,6 @@ if(route[1] === 'user'){
 //   switch (req.url) {
 //     case "/html":
 //       res.setHeader("content-type", "text/html");
-
 //       res.end(htmlData);
 //       break;
 //     case "/users":
